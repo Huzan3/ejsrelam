@@ -4,7 +4,7 @@ public class SumaCuadradosImpares {
 
     public static void main(String[] args) {
 
-        int n = 691000; // cantidad de números cuadrados
+        int n = 136000; // cantidad de números cuadrados
         int cantidadImpares = n / 2; // cantidad de bases impares: 1,3,5,...,113999
 
         long suma = sumarCuadradosImpares(cantidadImpares);

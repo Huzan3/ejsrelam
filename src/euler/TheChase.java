@@ -56,7 +56,7 @@ public class TheChase {
         E = E2;
 
         // Si ya convergió, mostrar resultado
-        if (maxDif < 0.0000000001) {
+        if (maxDif < 0.000000000001) {
             System.out.printf("Respuesta: %.10g\n", E[0][50]);
             break;
         }

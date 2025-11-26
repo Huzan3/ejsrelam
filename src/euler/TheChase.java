@@ -24,7 +24,7 @@ public class TheChase {
             if (lanzamientos > 5) { // min 1 tirada por persona
                 for (int i = 0; i < 5; i++) {
                     if (posiciones[i] == 0) {
-                        System.out.println("Persona " + i + " regresó a posición inicial en lanzamiento " + lanzamientos);
+                        System.out.println("Persona en posicion " + i + " el dado regresó a posición inicial en lanzamiento " + lanzamientos);
                         System.out.println("Total de lanzamientos necesarios: " + lanzamientos);
                         return;
                     }
